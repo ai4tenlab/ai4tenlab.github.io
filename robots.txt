@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ai4tenlab.github.io/sitemap.xml
