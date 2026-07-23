@@ -5,7 +5,7 @@
     <link>https://ai4tenlab.github.io/</link>
     <description>4TENLAB의 AI, 뇌과학, 공공정책, 경제 공개 지식 채널 최신 글</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 23 Jul 2026 03:35:24 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 06:35:50 GMT</lastBuildDate>
     <item>
       <title>ADHD 아이에게 운동은 집중력 훈련이 될 수 있을까?</title>
       <link>https://ai4tenlab.github.io/everyday-neuroscience-lab/2026/07/23/exercise-adhd-executive-function/</link>
@@ -617,18 +617,6 @@
 
 <p>중요한 대목은 공개 범위다. Google은 이 기술의 이중용도 위험을 언급하며 Gemini 3.5 Flash Cyber를 정부와 신뢰할 수 있는 파트너에게 CodeMender를 통해 제한적 파일럿으로 제공하겠다고 밝혔다. 보안을 돕는 능력이 커질수록, 같은 능력이 공격 지식으로 악용될 가능성도 함께 관리해야 한다는 뜻이다.</p>
 
-<h2 id="전문용어-쉽게-풀어쓰기">전문용어 쉽게 풀어쓰기</h2>
-
-<ul>
-  <li><strong>취약점(Vulnerability)</strong>: 프로그램이나 서비스에 숨어 있는 약한 부분이다. 집 현관문 잠금장치가 헐거우면 도둑이 들어오기 쉬운 것처럼, 코드의 작은 실수가 공격 통로가 될 수 있다.</li>
-  <li><strong>패치(Patch)</strong>: 취약점을 고치기 위해 배포하는 수정 파일이나 업데이트다. 스마트폰 운영체제를 최신 버전으로 올리는 것도 넓은 의미의 패치다.</li>
-  <li><strong>AI 에이전트(AI Agent)</strong>: 사람이 하나하나 지시하지 않아도 목표를 받아 여러 단계를 실행하는 AI 도우미다. 예를 들어 코드를 읽고, 문제 후보를 표시하고, 수정안을 만드는 식으로 움직일 수 있다.</li>
-  <li><strong>CodeMender</strong>: Google DeepMind가 설명한 코드 보안 에이전트다. 이름 그대로 코드를 “수선하는” 보안 도구로 이해하면 쉽다.</li>
-  <li><strong>이중용도(Dual-use)</strong>: 같은 기술이 좋은 목적과 나쁜 목적에 모두 쓰일 수 있다는 뜻이다. 보안 취약점을 찾는 기술은 방어자를 돕지만, 잘못 쓰이면 공격자도 도울 수 있다.</li>
-  <li><strong>벤치마크(Benchmark)</strong>: AI 성능을 비교하기 위한 시험 문제집이다. Google은 Gemini 3.5 Flash Cyber가 CodeMender 안에서 CyberGym 벤치마크에서 경쟁력 있는 성능을 보였다고 설명했다.</li>
-  <li><strong>사람 검토(Human Review)</strong>: AI가 만든 판단이나 수정안을 사람이 마지막으로 확인하는 절차다. 보안에서는 AI가 제안한 패치가 실제 서비스에 다른 문제를 만들지 않는지 사람이 반드시 살펴야 한다.</li>
-</ul>
-
 <h2 id="왜-지금-중요한가">왜 지금 중요한가?</h2>
 
 <p>사이버보안은 더 이상 대기업 전산실만의 문제가 아니다. 학교, 병원, 동네 가게, 비영리단체, 1인 사업자도 예약 시스템, 결제 페이지, 고객 명단, 업무용 이메일을 쓴다. 작은 조직일수록 전문 보안 인력이 부족하기 때문에 취약점 하나가 곧 개인정보 유출이나 서비스 중단으로 이어질 수 있다.</p>
@@ -706,6 +694,10 @@
 
 <p>넷째, 보안 문제를 AI에게 물어볼 때 실제 고객정보, 비밀번호, API 키, 내부 서버 주소를 그대로 넣지 않아야 한다. 민감정보를 지우거나 예시 데이터로 바꿔 질문하는 습관이 필요하다.</p>
 
+<h2 id="결론-오늘-기억할-한-문장">결론: 오늘 기억할 한 문장</h2>
+
+<p>AI 보안요원 시대의 핵심은 더 똑똑한 도구를 갖는 것이 아니라, 시민과 조직이 AI의 도움을 받되 최종 책임과 기본 보안 습관을 놓치지 않는 데 있다.</p>
+
 <h2 id="자주-묻는-질문-faq">자주 묻는 질문 FAQ</h2>
 
 <h3 id="q1-gemini-35-flash-cyber는-일반인이-바로-쓸-수-있나요">Q1. Gemini 3.5 Flash Cyber는 일반인이 바로 쓸 수 있나요?</h3>
@@ -726,6 +718,18 @@
 <h3 id="q6-보안-ai의-결과는-어떻게-검토해야-하나요">Q6. 보안 AI의 결과는 어떻게 검토해야 하나요?</h3>
 <p>A. “문제 후보 확인 → 수정안 검토 → 테스트 환경 적용 → 사람 승인 → 실제 배포 → 기록 보관” 순서가 안전합니다. 특히 고객 데이터와 결제 기능에 닿는 변경은 더 엄격히 확인해야 합니다.</p>
 
+<h2 id="전문용어-쉽게-풀어쓰기">전문용어 쉽게 풀어쓰기</h2>
+
+<ul>
+  <li><strong>취약점(Vulnerability)</strong>: 프로그램이나 서비스에 숨어 있는 약한 부분이다. 집 현관문 잠금장치가 헐거우면 도둑이 들어오기 쉬운 것처럼, 코드의 작은 실수가 공격 통로가 될 수 있다.</li>
+  <li><strong>패치(Patch)</strong>: 취약점을 고치기 위해 배포하는 수정 파일이나 업데이트다. 스마트폰 운영체제를 최신 버전으로 올리는 것도 넓은 의미의 패치다.</li>
+  <li><strong>AI 에이전트(AI Agent)</strong>: 사람이 하나하나 지시하지 않아도 목표를 받아 여러 단계를 실행하는 AI 도우미다. 예를 들어 코드를 읽고, 문제 후보를 표시하고, 수정안을 만드는 식으로 움직일 수 있다.</li>
+  <li><strong>CodeMender</strong>: Google DeepMind가 설명한 코드 보안 에이전트다. 이름 그대로 코드를 “수선하는” 보안 도구로 이해하면 쉽다.</li>
+  <li><strong>이중용도(Dual-use)</strong>: 같은 기술이 좋은 목적과 나쁜 목적에 모두 쓰일 수 있다는 뜻이다. 보안 취약점을 찾는 기술은 방어자를 돕지만, 잘못 쓰이면 공격자도 도울 수 있다.</li>
+  <li><strong>벤치마크(Benchmark)</strong>: AI 성능을 비교하기 위한 시험 문제집이다. Google은 Gemini 3.5 Flash Cyber가 CodeMender 안에서 CyberGym 벤치마크에서 경쟁력 있는 성능을 보였다고 설명했다.</li>
+  <li><strong>사람 검토(Human Review)</strong>: AI가 만든 판단이나 수정안을 사람이 마지막으로 확인하는 절차다. 보안에서는 AI가 제안한 패치가 실제 서비스에 다른 문제를 만들지 않는지 사람이 반드시 살펴야 한다.</li>
+</ul>
+
 <h2 id="출처와-참고-근거">출처와 참고 근거</h2>
 
 <ul>
@@ -734,10 +738,6 @@
   <li>NIST, “Artificial Intelligence Risk Management Framework (AI RMF 1.0).” <a href="https://www.nist.gov/itl/ai-risk-management-framework">https://www.nist.gov/itl/ai-risk-management-framework</a></li>
   <li>CISA, “Secure Our World.” <a href="https://www.cisa.gov/secure-our-world">https://www.cisa.gov/secure-our-world</a></li>
 </ul>
-
-<h2 id="결론-오늘-기억할-한-문장">결론: 오늘 기억할 한 문장</h2>
-
-<p>AI 보안요원 시대의 핵심은 더 똑똑한 도구를 갖는 것이 아니라, 시민과 조직이 AI의 도움을 받되 최종 책임과 기본 보안 습관을 놓치지 않는 데 있다.</p>
 
 <script type="application/ld+json">
 {
@@ -785,18 +785,6 @@
 
 <p>중요한 대목은 공개 범위다. Google은 이 기술의 이중용도 위험을 언급하며 Gemini 3.5 Flash Cyber를 정부와 신뢰할 수 있는 파트너에게 CodeMender를 통해 제한적 파일럿으로 제공하겠다고 밝혔다. 보안을 돕는 능력이 커질수록, 같은 능력이 공격 지식으로 악용될 가능성도 함께 관리해야 한다는 뜻이다.</p>
 
-<h2 id="전문용어-쉽게-풀어쓰기">전문용어 쉽게 풀어쓰기</h2>
-
-<ul>
-  <li><strong>취약점(Vulnerability)</strong>: 프로그램이나 서비스에 숨어 있는 약한 부분이다. 집 현관문 잠금장치가 헐거우면 도둑이 들어오기 쉬운 것처럼, 코드의 작은 실수가 공격 통로가 될 수 있다.</li>
-  <li><strong>패치(Patch)</strong>: 취약점을 고치기 위해 배포하는 수정 파일이나 업데이트다. 스마트폰 운영체제를 최신 버전으로 올리는 것도 넓은 의미의 패치다.</li>
-  <li><strong>AI 에이전트(AI Agent)</strong>: 사람이 하나하나 지시하지 않아도 목표를 받아 여러 단계를 실행하는 AI 도우미다. 예를 들어 코드를 읽고, 문제 후보를 표시하고, 수정안을 만드는 식으로 움직일 수 있다.</li>
-  <li><strong>CodeMender</strong>: Google DeepMind가 설명한 코드 보안 에이전트다. 이름 그대로 코드를 “수선하는” 보안 도구로 이해하면 쉽다.</li>
-  <li><strong>이중용도(Dual-use)</strong>: 같은 기술이 좋은 목적과 나쁜 목적에 모두 쓰일 수 있다는 뜻이다. 보안 취약점을 찾는 기술은 방어자를 돕지만, 잘못 쓰이면 공격자도 도울 수 있다.</li>
-  <li><strong>벤치마크(Benchmark)</strong>: AI 성능을 비교하기 위한 시험 문제집이다. Google은 Gemini 3.5 Flash Cyber가 CodeMender 안에서 CyberGym 벤치마크에서 경쟁력 있는 성능을 보였다고 설명했다.</li>
-  <li><strong>사람 검토(Human Review)</strong>: AI가 만든 판단이나 수정안을 사람이 마지막으로 확인하는 절차다. 보안에서는 AI가 제안한 패치가 실제 서비스에 다른 문제를 만들지 않는지 사람이 반드시 살펴야 한다.</li>
-</ul>
-
 <h2 id="왜-지금-중요한가">왜 지금 중요한가?</h2>
 
 <p>사이버보안은 더 이상 대기업 전산실만의 문제가 아니다. 학교, 병원, 동네 가게, 비영리단체, 1인 사업자도 예약 시스템, 결제 페이지, 고객 명단, 업무용 이메일을 쓴다. 작은 조직일수록 전문 보안 인력이 부족하기 때문에 취약점 하나가 곧 개인정보 유출이나 서비스 중단으로 이어질 수 있다.</p>
@@ -874,6 +862,10 @@
 
 <p>넷째, 보안 문제를 AI에게 물어볼 때 실제 고객정보, 비밀번호, API 키, 내부 서버 주소를 그대로 넣지 않아야 한다. 민감정보를 지우거나 예시 데이터로 바꿔 질문하는 습관이 필요하다.</p>
 
+<h2 id="결론-오늘-기억할-한-문장">결론: 오늘 기억할 한 문장</h2>
+
+<p>AI 보안요원 시대의 핵심은 더 똑똑한 도구를 갖는 것이 아니라, 시민과 조직이 AI의 도움을 받되 최종 책임과 기본 보안 습관을 놓치지 않는 데 있다.</p>
+
 <h2 id="자주-묻는-질문-faq">자주 묻는 질문 FAQ</h2>
 
 <h3 id="q1-gemini-35-flash-cyber는-일반인이-바로-쓸-수-있나요">Q1. Gemini 3.5 Flash Cyber는 일반인이 바로 쓸 수 있나요?</h3>
@@ -894,6 +886,18 @@
 <h3 id="q6-보안-ai의-결과는-어떻게-검토해야-하나요">Q6. 보안 AI의 결과는 어떻게 검토해야 하나요?</h3>
 <p>A. “문제 후보 확인 → 수정안 검토 → 테스트 환경 적용 → 사람 승인 → 실제 배포 → 기록 보관” 순서가 안전합니다. 특히 고객 데이터와 결제 기능에 닿는 변경은 더 엄격히 확인해야 합니다.</p>
 
+<h2 id="전문용어-쉽게-풀어쓰기">전문용어 쉽게 풀어쓰기</h2>
+
+<ul>
+  <li><strong>취약점(Vulnerability)</strong>: 프로그램이나 서비스에 숨어 있는 약한 부분이다. 집 현관문 잠금장치가 헐거우면 도둑이 들어오기 쉬운 것처럼, 코드의 작은 실수가 공격 통로가 될 수 있다.</li>
+  <li><strong>패치(Patch)</strong>: 취약점을 고치기 위해 배포하는 수정 파일이나 업데이트다. 스마트폰 운영체제를 최신 버전으로 올리는 것도 넓은 의미의 패치다.</li>
+  <li><strong>AI 에이전트(AI Agent)</strong>: 사람이 하나하나 지시하지 않아도 목표를 받아 여러 단계를 실행하는 AI 도우미다. 예를 들어 코드를 읽고, 문제 후보를 표시하고, 수정안을 만드는 식으로 움직일 수 있다.</li>
+  <li><strong>CodeMender</strong>: Google DeepMind가 설명한 코드 보안 에이전트다. 이름 그대로 코드를 “수선하는” 보안 도구로 이해하면 쉽다.</li>
+  <li><strong>이중용도(Dual-use)</strong>: 같은 기술이 좋은 목적과 나쁜 목적에 모두 쓰일 수 있다는 뜻이다. 보안 취약점을 찾는 기술은 방어자를 돕지만, 잘못 쓰이면 공격자도 도울 수 있다.</li>
+  <li><strong>벤치마크(Benchmark)</strong>: AI 성능을 비교하기 위한 시험 문제집이다. Google은 Gemini 3.5 Flash Cyber가 CodeMender 안에서 CyberGym 벤치마크에서 경쟁력 있는 성능을 보였다고 설명했다.</li>
+  <li><strong>사람 검토(Human Review)</strong>: AI가 만든 판단이나 수정안을 사람이 마지막으로 확인하는 절차다. 보안에서는 AI가 제안한 패치가 실제 서비스에 다른 문제를 만들지 않는지 사람이 반드시 살펴야 한다.</li>
+</ul>
+
 <h2 id="출처와-참고-근거">출처와 참고 근거</h2>
 
 <ul>
@@ -902,10 +906,6 @@
   <li>NIST, “Artificial Intelligence Risk Management Framework (AI RMF 1.0).” <a href="https://www.nist.gov/itl/ai-risk-management-framework">https://www.nist.gov/itl/ai-risk-management-framework</a></li>
   <li>CISA, “Secure Our World.” <a href="https://www.cisa.gov/secure-our-world">https://www.cisa.gov/secure-our-world</a></li>
 </ul>
-
-<h2 id="결론-오늘-기억할-한-문장">결론: 오늘 기억할 한 문장</h2>
-
-<p>AI 보안요원 시대의 핵심은 더 똑똑한 도구를 갖는 것이 아니라, 시민과 조직이 AI의 도움을 받되 최종 책임과 기본 보안 습관을 놓치지 않는 데 있다.</p>
 
 <script type="application/ld+json">
 {
